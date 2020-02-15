@@ -1,0 +1,28 @@
+"type()" recibe un argumento y devuelve el tipo de dato
+ej: a = 5
+type(a)
+int
+
+"type(a) is" consultas el tipo de dato, si es int,float,complex,bool o str
+
+>>> type(a) is int
+True
+
+para abrir un archivo python "nombre del archivo.py"
+
+a%3 da el resto de la division, sirve para saber si un numero es divisible por otro
+
+casteo:
+>>> a =56
+>>> str(a)
+'56'
+>>> type(a)
+<class 'int'>
+>>> b = str(a)
+>>> type (b)
+<class 'str'>
+>>> a
+56
+>>> a = str(a)
+>>> a
+'56'
